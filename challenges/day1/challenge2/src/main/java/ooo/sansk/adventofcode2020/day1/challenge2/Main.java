@@ -1,4 +1,4 @@
-package ooo.sansk.adventofcode2020.day1.challenge1;
+package ooo.sansk.adventofcode2020.day1.challenge2;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -18,11 +18,14 @@ public class Main {
 
         for (int i = 0; i < numbers.size(); i++) {
             for (int j = i+1; j < numbers.size(); j++) {
-                int first = numbers.get(i);
-                int second = numbers.get(j);
-                if(first + second == ADDITION_TARGET) {
-                    System.out.println("Found numbers " + first + " and " + second + ". Their product is " + (first * second));
-                    return;
+                for (int k = j+1; k < numbers.size(); k++) {
+                    int first = numbers.get(i);
+                    int second = numbers.get(j);
+                    int third = numbers.get(k);
+                    if(first + second + third == ADDITION_TARGET) {
+                        System.out.println("Found numbers " + first + ", " + second + " and " + third + ". Their product is " + (first * second * third));
+                        return;
+                    }
                 }
             }
         }
