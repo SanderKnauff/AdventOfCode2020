@@ -4,22 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>AdventOfCode2020</artifactId>
+    <groupId>ooo.sansk.adventofcode2020.day3</groupId>
+    <artifactId>day3challenge1</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <name>Day 3 Challenge 1</name>
 
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
     </properties>
 
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>challenges/day1/challenge1</module>
-        <module>challenges/day1/challenge2</module>
-        <module>challenges/day2/challenge1</module>
-        <module>challenges/day2/challenge2</module>
-        <module>challenges/day3/challenge1</module>
-    </modules>
 </project>
