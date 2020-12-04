@@ -23,5 +23,6 @@
         <module>challenges/day3/challenge1</module>
         <module>challenges/day3/challenge2</module>
         <module>challenges/day4/challenge1</module>
+        <module>challenges/day4/challenge2</module>
     </modules>
 </project>
