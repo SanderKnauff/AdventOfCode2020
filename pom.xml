@@ -30,5 +30,6 @@
         <module>challenges/day6/challenge2</module>
         <module>challenges/day7/challenge1</module>
         <module>challenges/day7/challenge2</module>
+        <module>challenges/day8/challenge1</module>
     </modules>
 </project>
